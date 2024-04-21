@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* to prevent horizontal scrolling */
+
+}
+
+
+@media (max-width:991px)
+{
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: 10px;
+    }
+}
+
+nav{
+    font-family: 'Rubik',sans-serif;
+}
+
+/*main section for background image and headings*/
+/* main section for background image and headings */
+.main {
+    background-image: url(pictures/vegetables_background1.jpeg);
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    height: 100vh;
+    position: 50% 50%;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Center content vertically */
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto; /* Center the heading horizontally */
+}
+
+
+
+/*About us*/
+.about-section {
+    padding: 80px 0;
+  }
+
+  .about-heading {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .about-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .about-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .about-img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .about-content {
+    padding: 20px;
+  }
+
+
+  /*footer*/
+
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+
+
